@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+body{
+    background: #212529;
+    color: whitesmoke;
+
+}
+
+
+main{
+    background: #212529;
+    color: whitesmoke;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    line-height: 1.8em;
+}
+
+
+@import "../scss/html/index";
+@import "../scss/html/nosotros";
+@import "../scss/html/servicios";
+@import "../scss/html/actualidad";
+@import "../scss/html/contactos";
+
+

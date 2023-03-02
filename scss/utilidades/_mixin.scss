@@ -1,0 +1,18 @@
+@mixin tipografia( $size, $color-tipografia, $alineacion){
+    font-size: $size;
+    color: $color-tipografia;
+    text-align: $alineacion;
+}
+
+
+@mixin boton($width, $align, $content, $flex){
+    width: $width;
+    text-align: $align; 
+    justify-content:$content;
+    display: $flex;
+}
+
+@mixin parrafo($padding, $color-tipografia){
+    padding: $padding;
+    color: $color-tipografia;
+}

@@ -1,0 +1,72 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+/* ACTUALIDAD */
+
+.container-actualidad{
+    background: $color-secundario;
+    padding: 20px;
+}
+  
+.pre01{
+    text-align: justify;
+    @include parrafo(40px, whitesmoke);
+}
+  
+.pre02{
+    text-align: center;
+    @include parrafo(40px, whitesmoke);
+}
+  
+.pre03{
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+  
+  
+  
+button.btn {
+   @include boton(100px, center, center, flex);
+}
+
+/* FOOTER */
+
+.footer-container{
+    padding: 40px 0;
+    background-color: $color-secundario;
+    clear: both;
+
+}
+
+.footer-icons{
+    color: $color-iconos;
+    text-align: center;
+}
+
+.footer-icons a{
+    color: $color-iconos;
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
+    opacity: 0.8;
+    line-height: 38px;
+    font-size: 1.4rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1.4px solid $color-borde;
+}
+
+.footer-icons a:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.copyright{
+    @include tipografia(14px,$color-iconos, center);
+    margin-top: 15px;
+    cursor: pointer;
+}
+
