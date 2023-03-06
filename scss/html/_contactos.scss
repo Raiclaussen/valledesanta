@@ -57,7 +57,13 @@ textarea {
 }
   
 input[type="submit"] {
-   @extend %boton;
+    background-color: $color-boton;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
 }
   
 .ubicacion {
